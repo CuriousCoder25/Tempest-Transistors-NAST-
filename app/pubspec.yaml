@@ -1,0 +1,36 @@
+name: nagarik_sathi
+description: Nagarik Sathi civic services hackathon MVP.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_tts: ^4.2.3
+  http: ^1.5.0
+  qr_flutter: ^4.1.0
+  speech_to_text: ^7.3.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/Inter-OFL.txt
+    - assets/fonts/NotoSansDevanagari-OFL.txt
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter.ttf
+    - family: Noto Sans Devanagari
+      fonts:
+        - asset: assets/fonts/NotoSansDevanagari.ttf
